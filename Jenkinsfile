@@ -15,10 +15,10 @@ pipeline{
                 }
             }
             steps{
-                sh ```
+                sh '''
                     npm install netlify-cli -g
                     netlify --version
-                ```
+                '''
             }   
         }
     }
